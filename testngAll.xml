@@ -7,6 +7,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin"/>
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses"/>
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns"/>
       <class name="Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard"/>
       <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder"/>
       <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport"/>      
@@ -16,8 +18,8 @@
       <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage"/>
       <class name="Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM"/>      
       <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails"/>
-      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses"/>
-      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
