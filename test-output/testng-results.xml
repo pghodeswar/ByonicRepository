@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="6" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-24T13:27:29 IST" name="Suite" finished-at="2021-11-24T13:46:10 IST" duration-ms="1120541">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC01_verifyLogin.TC01_verifyLoginFunction()[pri:0, instance:Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin@2f8dad04]" name="TC01_verifyLoginFunction" class="Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin"/>
+        <method signature="TC02_verifyStatuses.TC02_toVerifyCampaignsAndLeadsByStatuses()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses@41fecb8b]" name="TC02_toVerifyCampaignsAndLeadsByStatuses" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses"/>
+        <method signature="TC03_verifyTop5Campaigns.TC03_verifyTop5CampaignsDataAndOrdering()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns@120f102b]" name="TC03_verifyTop5CampaignsDataAndOrdering" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns"/>
+        <method signature="TC05_verifyCampaignPage.TC02_toVerifyCampaignsAndLeadsByStatuses()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage@1ba9117e]" name="TC02_toVerifyCampaignsAndLeadsByStatuses" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage"/>
+        <method signature="TC08_verifyCampaignBuilder.TC08_verifyCampaignBuilderFunctionality()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder@41e1e210]" name="TC08_verifyCampaignBuilderFunctionality" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder"/>
+        <method signature="TC12_verifyAiBMDashboard.TC12_toVerifyAiBMDashboard()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard@4944252c]" name="TC12_toVerifyAiBMDashboard" class="Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard"/>
+        <method signature="TC13_verifySearchPageOfAiBM.TC13_toVerifySearchPageOfAiBM()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM@732c2a62]" name="TC13_toVerifySearchPageOfAiBM" class="Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM"/>
+        <method signature="TC15_verifySearchPageOfDemandFunnel.TC13_toVerifySearchPageOfDemandFunnel()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel@a3d8174]" name="TC13_toVerifySearchPageOfDemandFunnel" class="Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel"/>
+      </group> <!-- Sanity -->
+      <group name="DemandFunnel">
+        <method signature="TC14_verifyDemandFunnelDashboard.TC14_toVerifyDemandFunnelDashboard()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard@29e495ff]" name="TC14_toVerifyDemandFunnelDashboard" class="Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard"/>
+      </group> <!-- DemandFunnel -->
+      <group name="sanity">
+        <method signature="TC04_verifyFilters.TC04_toVerifyFiltersAndReset()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters@44821a96]" name="TC04_toVerifyFiltersAndReset" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters"/>
+        <method signature="TC06_VerifyCampFiltersAndReport.TC06_toVerifyCampaignFiltersAndRepotrsDownload()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport@be35cd9]" name="TC06_toVerifyCampaignFiltersAndRepotrsDownload" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport"/>
+        <method signature="TC07_VerifyCampaignDetails.TC07_toVerifyAllCampaignDetailPage()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails@272ed83b]" name="TC07_toVerifyAllCampaignDetailPage" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails"/>
+        <method signature="TC14_verifyDemandFunnelDashboard.TC14_toVerifyDemandFunnelDashboard()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard@29e495ff]" name="TC14_toVerifyDemandFunnelDashboard" class="Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard"/>
+      </group> <!-- sanity -->
+      <group name="AiBM">
+        <method signature="TC12_verifyAiBMDashboard.TC12_toVerifyAiBMDashboard()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard@4944252c]" name="TC12_toVerifyAiBMDashboard" class="Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard"/>
+        <method signature="TC13_verifySearchPageOfAiBM.TC13_toVerifySearchPageOfAiBM()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM@732c2a62]" name="TC13_toVerifySearchPageOfAiBM" class="Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM"/>
+      </group> <!-- AiBM -->
+      <group name="Byonic">
+        <method signature="TC01_verifyLogin.TC01_verifyLoginFunction()[pri:0, instance:Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin@2f8dad04]" name="TC01_verifyLoginFunction" class="Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin"/>
+        <method signature="TC02_verifyStatuses.TC02_toVerifyCampaignsAndLeadsByStatuses()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses@41fecb8b]" name="TC02_toVerifyCampaignsAndLeadsByStatuses" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses"/>
+        <method signature="TC03_verifyTop5Campaigns.TC03_verifyTop5CampaignsDataAndOrdering()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns@120f102b]" name="TC03_verifyTop5CampaignsDataAndOrdering" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns"/>
+        <method signature="TC04_verifyFilters.TC04_toVerifyFiltersAndReset()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters@44821a96]" name="TC04_toVerifyFiltersAndReset" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters"/>
+        <method signature="TC05_verifyCampaignPage.TC02_toVerifyCampaignsAndLeadsByStatuses()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage@1ba9117e]" name="TC02_toVerifyCampaignsAndLeadsByStatuses" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage"/>
+        <method signature="TC06_VerifyCampFiltersAndReport.TC06_toVerifyCampaignFiltersAndRepotrsDownload()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport@be35cd9]" name="TC06_toVerifyCampaignFiltersAndRepotrsDownload" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport"/>
+        <method signature="TC07_VerifyCampaignDetails.TC07_toVerifyAllCampaignDetailPage()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails@272ed83b]" name="TC07_toVerifyAllCampaignDetailPage" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails"/>
+        <method signature="TC08_verifyCampaignBuilder.TC08_verifyCampaignBuilderFunctionality()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder@41e1e210]" name="TC08_verifyCampaignBuilderFunctionality" class="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder"/>
+      </group> <!-- Byonic -->
+      <group name="Demand Funnel">
+        <method signature="TC15_verifySearchPageOfDemandFunnel.TC13_toVerifySearchPageOfDemandFunnel()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel@a3d8174]" name="TC13_toVerifySearchPageOfDemandFunnel" class="Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel"/>
+      </group> <!-- Demand Funnel -->
+    </groups>
+    <test started-at="2021-11-24T13:27:29 IST" name="Test" finished-at="2021-11-24T13:46:10 IST" duration-ms="1120541">
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder@41e1e210]" started-at="2021-11-24T13:30:11 IST" name="Setup" finished-at="2021-11-24T13:30:18 IST" duration-ms="6903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC08_verifyCampaignBuilderFunctionality()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder@41e1e210]" started-at="2021-11-24T13:30:18 IST" name="TC08_verifyCampaignBuilderFunctionality" finished-at="2021-11-24T13:32:44 IST" duration-ms="146368" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='create_campaign_btn show_campaign']/button (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='create_campaign_btn show_campaign']/button (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Byonic.ByonicProject.Framework.BasePageFolder.BasePage.ClickUsingXPath(BasePage.java:272)
+at Byonic.ByonicProject.Pages.CampaignsListPage.clickOnCreateCampaigns(CampaignsListPage.java:29)
+at Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder.TC08_verifyCampaignBuilderFunctionality(TC08_verifyCampaignBuilder.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='create_campaign_btn show_campaign']/button"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INPN-LAP-0068', ip: '172.16.5.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\PGHODE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56703}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 786649a877bd8969cc0c86a36590f086
+*** Element info: {Using=xpath, value=//div[@class='create_campaign_btn show_campaign']/button}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_verifyCampaignBuilderFunctionality -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder@41e1e210]" started-at="2021-11-24T13:32:45 IST" name="TearDown" finished-at="2021-11-24T13:32:46 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder -->
+      <class name="Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard@29e495ff]" started-at="2021-11-24T13:28:44 IST" name="Setup" finished-at="2021-11-24T13:28:50 IST" duration-ms="6298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC14_toVerifyDemandFunnelDashboard()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard@29e495ff]" started-at="2021-11-24T13:28:50 IST" name="TC14_toVerifyDemandFunnelDashboard" finished-at="2021-11-24T13:30:10 IST" duration-ms="80459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_toVerifyDemandFunnelDashboard -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard@29e495ff]" started-at="2021-11-24T13:30:10 IST" name="TearDown" finished-at="2021-11-24T13:30:11 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.DemandFunnelTests.TC14_verifyDemandFunnelDashboard -->
+      <class name="Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel@a3d8174]" started-at="2021-11-24T13:37:08 IST" name="Setup" finished-at="2021-11-24T13:37:14 IST" duration-ms="5895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC13_toVerifySearchPageOfDemandFunnel()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel@a3d8174]" started-at="2021-11-24T13:37:14 IST" name="TC13_toVerifySearchPageOfDemandFunnel" finished-at="2021-11-24T13:38:18 IST" duration-ms="64152" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Demand Funnel search page Filters error: Lists differ at element [0]: Location != Job Level expected [Location] but found [Job Level]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Demand Funnel search page Filters error: Lists differ at element [0]: Location != Job Level expected [Location] but found [Job Level]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:1103)
+at Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel.TC13_toVerifySearchPageOfDemandFunnel(TC15_verifySearchPageOfDemandFunnel.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_toVerifySearchPageOfDemandFunnel -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel@a3d8174]" started-at="2021-11-24T13:38:19 IST" name="TearDown" finished-at="2021-11-24T13:38:19 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel -->
+      <class name="Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard@4944252c]" started-at="2021-11-24T13:34:21 IST" name="Setup" finished-at="2021-11-24T13:34:28 IST" duration-ms="7250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC12_toVerifyAiBMDashboard()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard@4944252c]" started-at="2021-11-24T13:34:28 IST" name="TC12_toVerifyAiBMDashboard" finished-at="2021-11-24T13:35:54 IST" duration-ms="85405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_toVerifyAiBMDashboard -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard@4944252c]" started-at="2021-11-24T13:35:54 IST" name="TearDown" finished-at="2021-11-24T13:35:55 IST" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters@44821a96]" started-at="2021-11-24T13:35:55 IST" name="Setup" finished-at="2021-11-24T13:36:01 IST" duration-ms="6085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC04_toVerifyFiltersAndReset()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters@44821a96]" started-at="2021-11-24T13:36:01 IST" name="TC04_toVerifyFiltersAndReset" finished-at="2021-11-24T13:37:07 IST" duration-ms="66578" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Data Ordering by Completion Error: Lists differ at element [0]: 26 != 25 expected [26] but found [25]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Data Ordering by Completion Error: Lists differ at element [0]: 26 != 25 expected [26] but found [25]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:1103)
+at Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters.getDataToCompare(TC04_verifyFilters.java:54)
+at Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters.TC04_toVerifyFiltersAndReset(TC04_verifyFilters.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_toVerifyFiltersAndReset -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters@44821a96]" started-at="2021-11-24T13:37:07 IST" name="TearDown" finished-at="2021-11-24T13:37:08 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters -->
+      <class name="Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM@732c2a62]" started-at="2021-11-24T13:39:43 IST" name="Setup" finished-at="2021-11-24T13:39:50 IST" duration-ms="6536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC13_toVerifySearchPageOfAiBM()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM@732c2a62]" started-at="2021-11-24T13:39:50 IST" name="TC13_toVerifySearchPageOfAiBM" finished-at="2021-11-24T13:41:04 IST" duration-ms="74262" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[AiBM search page Filters error: Lists differ at element [0]: Location != Intent Topic expected [Location] but found [Intent Topic]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: AiBM search page Filters error: Lists differ at element [0]: Location != Intent Topic expected [Location] but found [Intent Topic]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:1103)
+at Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM.TC13_toVerifySearchPageOfAiBM(TC13_verifySearchPageOfAiBM.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_toVerifySearchPageOfAiBM -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM@732c2a62]" started-at="2021-11-24T13:41:04 IST" name="TearDown" finished-at="2021-11-24T13:41:05 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage@1ba9117e]" started-at="2021-11-24T13:38:19 IST" name="Setup" finished-at="2021-11-24T13:38:27 IST" duration-ms="7653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC02_toVerifyCampaignsAndLeadsByStatuses()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage@1ba9117e]" started-at="2021-11-24T13:38:27 IST" name="TC02_toVerifyCampaignsAndLeadsByStatuses" finished-at="2021-11-24T13:39:42 IST" duration-ms="75349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_toVerifyCampaignsAndLeadsByStatuses -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage@1ba9117e]" started-at="2021-11-24T13:39:42 IST" name="TearDown" finished-at="2021-11-24T13:39:43 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC05_verifyCampaignPage -->
+      <class name="Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin@2f8dad04]" started-at="2021-11-24T13:27:29 IST" name="Setup" finished-at="2021-11-24T13:27:39 IST" duration-ms="9327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC01_verifyLoginFunction()[pri:0, instance:Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin@2f8dad04]" started-at="2021-11-24T13:27:39 IST" name="TC01_verifyLoginFunction" finished-at="2021-11-24T13:28:43 IST" duration-ms="64294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_verifyLoginFunction -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin@2f8dad04]" started-at="2021-11-24T13:28:43 IST" name="TearDown" finished-at="2021-11-24T13:28:44 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.LoginTests.TC01_verifyLogin -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport@be35cd9]" started-at="2021-11-24T13:32:46 IST" name="Setup" finished-at="2021-11-24T13:32:52 IST" duration-ms="6598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC06_toVerifyCampaignFiltersAndRepotrsDownload()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport@be35cd9]" started-at="2021-11-24T13:32:52 IST" name="TC06_toVerifyCampaignFiltersAndRepotrsDownload" finished-at="2021-11-24T13:34:20 IST" duration-ms="88031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_toVerifyCampaignFiltersAndRepotrsDownload -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport@be35cd9]" started-at="2021-11-24T13:34:20 IST" name="TearDown" finished-at="2021-11-24T13:34:21 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses@41fecb8b]" started-at="2021-11-24T13:43:21 IST" name="Setup" finished-at="2021-11-24T13:43:27 IST" duration-ms="6185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC02_toVerifyCampaignsAndLeadsByStatuses()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses@41fecb8b]" started-at="2021-11-24T13:43:27 IST" name="TC02_toVerifyCampaignsAndLeadsByStatuses" finished-at="2021-11-24T13:44:42 IST" duration-ms="75245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_toVerifyCampaignsAndLeadsByStatuses -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses@41fecb8b]" started-at="2021-11-24T13:44:42 IST" name="TearDown" finished-at="2021-11-24T13:44:43 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC02_verifyStatuses -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails@272ed83b]" started-at="2021-11-24T13:41:05 IST" name="Setup" finished-at="2021-11-24T13:41:11 IST" duration-ms="6093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC07_toVerifyAllCampaignDetailPage()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails@272ed83b]" started-at="2021-11-24T13:41:11 IST" name="TC07_toVerifyAllCampaignDetailPage" finished-at="2021-11-24T13:43:20 IST" duration-ms="128418" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //mat-card-header/div/mat-card-title[contains(text(),'Advanced Requirements')] (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //mat-card-header/div/mat-card-title[contains(text(),'Advanced Requirements')] (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Byonic.ByonicProject.Pages.CampaignDetailsPage.getCampignsDetails(CampaignDetailsPage.java:29)
+at Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails.TC07_toVerifyAllCampaignDetailPage(TC07_VerifyCampaignDetails.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-card-header/div/mat-card-title[contains(text(),'Advanced Requirements')]"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'INPN-LAP-0068', ip: '172.16.5.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\PGHODE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58542}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 74f3accb00a28efca432d8fe490652bb
+*** Element info: {Using=xpath, value=//mat-card-header/div/mat-card-title[contains(text(),'Advanced Requirements')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_toVerifyAllCampaignDetailPage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails@272ed83b]" started-at="2021-11-24T13:43:20 IST" name="TearDown" finished-at="2021-11-24T13:43:21 IST" duration-ms="915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns@120f102b]" started-at="2021-11-24T13:44:43 IST" name="Setup" finished-at="2021-11-24T13:44:52 IST" duration-ms="8869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC03_verifyTop5CampaignsDataAndOrdering()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns@120f102b]" started-at="2021-11-24T13:44:52 IST" name="TC03_verifyTop5CampaignsDataAndOrdering" finished-at="2021-11-24T13:46:09 IST" duration-ms="76541" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Data Ordering by Completion Error: Lists differ at element [0]: 26 != 25 expected [26] but found [25]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Data Ordering by Completion Error: Lists differ at element [0]: 26 != 25 expected [26] but found [25]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:1103)
+at Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns.TC03_verifyTop5CampaignsDataAndOrdering(TC03_verifyTop5Campaigns.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verifyTop5CampaignsDataAndOrdering -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns@120f102b]" started-at="2021-11-24T13:46:09 IST" name="TearDown" finished-at="2021-11-24T13:46:10 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

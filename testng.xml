@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Byonic.ByonicProject.Framework.Listner.Listener"></listener>
+    </listeners>
+  <test thread-count="5" name="Test">
+      <classes>
+   	     <class name="Byonic.ByonicProject.Tests.LinkTests.TC_LinksCheckup"/>      
+         <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport"/>
+         <class name="Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard"/>
+         <class name="Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM"/>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

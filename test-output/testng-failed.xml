@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Byonic.ByonicProject.Framework.Listner.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel">
+        <methods>
+          <include name="TC13_toVerifySearchPageOfDemandFunnel"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Byonic.ByonicProject.Tests.DemandFunnelTests.TC15_verifySearchPageOfDemandFunnel -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters">
+        <methods>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+          <include name="TC04_toVerifyFiltersAndReset"/>
+        </methods>
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC04_verifyFilters -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TC03_verifyTop5CampaignsDataAndOrdering"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC03_verifyTop5Campaigns -->
+      <class name="Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TC13_toVerifySearchPageOfAiBM"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TC07_toVerifyAllCampaignDetailPage"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC07_VerifyCampaignDetails -->
+      <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder">
+        <methods>
+          <include name="TC08_verifyCampaignBuilderFunctionality"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- Byonic.ByonicProject.Tests.SmartCampaignsTest.TC08_verifyCampaignBuilder -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
