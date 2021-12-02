@@ -81,7 +81,7 @@ public void onTestFailure(ITestResult result) {
 
 public void onFinish(ITestContext context)
 {
-//extent.flush();
+extent.flush();
 }
 
 public void onTestSuccess(ITestResult result) 
