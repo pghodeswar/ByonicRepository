@@ -6,10 +6,7 @@
     </listeners>
   <test thread-count="5" name="Test">
       <classes>
-   	     <class name="Byonic.ByonicProject.Tests.LinkTests.TC_LinksCheckup"/>      
-         <class name="Byonic.ByonicProject.Tests.SmartCampaignsTest.TC06_VerifyCampFiltersAndReport"/>
-         <class name="Byonic.ByonicProject.Tests.AiBMTests.TC12_verifyAiBMDashboard"/>
-         <class name="Byonic.ByonicProject.Tests.AiBMTests.TC13_verifySearchPageOfAiBM"/>
+   	     <class name="Byonic.ByonicProject.Tests.LinkTests.TC_LinksCheckup"/>               
       </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
